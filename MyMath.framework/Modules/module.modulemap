@@ -1,0 +1,11 @@
+framework module MyMath {
+  umbrella header "MyMath.h"
+
+  export *
+  module * { export * }
+}
+
+module MyMath.Swift {
+    header "MyMath-Swift.h"
+    requires objc
+}
