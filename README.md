@@ -1,0 +1,2 @@
+# MyMath
+Simple Mathematical Library
